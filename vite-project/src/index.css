@@ -1,0 +1,311 @@
+.backgroundimg{
+    background-image: url(images/h1_hero1.jpg);
+   height: inherit;
+   background-size: cover;
+}
+.nav-item{
+    padding: 12px 10px;
+    font-weight: 500;
+    margin-left: 30px;
+
+}
+.makea{
+    color: white;
+    background-color: #F15B43;
+    border-radius: 0;
+    padding: 15px 29px;
+    font-weight: 500;
+
+}
+.navbar-nav a{
+    color: white !important;
+    text-decoration: none !important;
+}
+.give{
+    color: white;
+    font-family:"Jost",sans-serif;
+    font-weight: 600;
+    font-size: 4.3rem;
+    padding-top: 150px;
+}
+.when{
+    color: white;
+    font-family: "Rubik",sans-serif;
+    font-size: 1.6rem;
+}
+.upcoming{
+    color: #65C9BB;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: "Rubik",sans-serif;
+    line-height: 1.5;
+}
+.donate{
+    font-family: "Jost",sans-serif;
+    line-height: 1.5;
+    color: #263B5C;
+}
+.b12{
+    background-color: #FCF2EB;
+}
+.ongoingbutton{
+    border: none;
+    padding: 19px 35px;
+    color: white;
+    background-color: #65C9BB;
+    font-family:  "Rubik",sans-serif;
+    font-weight: 500;
+}
+.whena{
+    color:  #777777;
+    line-height: 1.6;
+    font-family:  "Rubik",sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+}
+.image2{
+    width: 80%;
+}
+
+.donateNow {
+    background-color: #F15B43;
+    border: none;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+}
+.viewProgram{
+    border: none;
+    font-weight: 500;
+    color: #F15B43;
+    padding: 15px 19px;
+    border: 2px solid #F15B43;
+    background-color:  white;
+    position: relative;
+    overflow: hidden;
+}
+.viewProgram::before{
+    content: "";
+    
+    width: 198px;
+    height: 54px;
+    position: absolute;
+    top: 0px;
+    left: 100%;
+  
+    transition: 1s;
+    
+
+}
+.viewProgram:hover::before{
+    background-color: #F15B43;
+    color: white;
+    transform: translateX(-100%);
+    display: inline-block;
+    left: 100%;
+
+}
+.discover{
+    background-color: #F15B43;
+    padding: 20px 33px;
+    color: white;
+    border: none;
+    font-family:  "Rubik",sans-serif;
+    font-weight: 550;
+    
+}
+.card{
+    border-radius: 0;
+    border: none;
+    background-color: whitesmoke;
+}
+.card-img-top{
+    border-radius: 0%;
+    width: 100%;
+}
+.card-title{
+  
+    font-family: "Jost",sans-serif;
+    font-weight: 600;
+    line-height: 1.7;
+    color: #263B5C;
+    transition: 1s;
+}
+.card-title:hover{
+    color:#F15B43 ;
+    transition: 1s;
+}
+.card-text{
+    color:#777777;
+    font-size: 16px;
+    font-weight: 500;
+    font-family:  "Rubik",sans-serif;
+}
+.Goals{
+    color: #65C9BB;
+    font-family:     "Jost",sans-serif;
+    font-size: 18px
+    ;
+    font-weight: 800;
+}
+.about3{
+    width: 80%;
+}
+.helping{
+    padding-left: 5%;
+}
+.discovermore{
+    padding: 20px 38px;
+    color: white;
+    border: none;
+    font-family:  "Rubik",sans-serif;
+    font-weight: 550;
+    color: #F15B43;
+    border: 2px solid #F15B43;
+    background-color: white;
+    overflow: hidden;
+    position: relative;
+    
+}
+.hovereffect{
+    width: 180px;
+    height: 70px;
+    background-color: #F15B43;
+    position: absolute;
+    top: 0;
+    right: 100%;
+    padding: 20px 33px;
+}
+.discovermore:hover .hovereffect{
+    position: absolute;
+    right: 0%;
+    transition: 1s;
+    color: white;
+    
+}
+.orangeBackground{
+    background-image: url(images/section-bg1.jpg);
+    background-size: cover;
+    width: 100%;
+    
+   
+}
+.Helping_today{
+    color: white;
+    font-weight: 600;
+    font-family:  "Rubik",sans-serif;
+}
+.HowWe{
+    color: white;
+    font-family: "Jost",sans-serif;
+    font-weight: 550;
+}
+.Heading{
+    color: white;
+    font-weight: 650;
+}
+.Content{
+    width: 70%;
+    color:#FCF2EB;
+    margin: auto;
+   
+    font-family:  "Rubik",sans-serif;
+   font-weight: 300;
+   font-size: 18px;
+   line-height: 1.6;
+}
+.Blog{
+    color:  #263B5C;
+    font-weight: 600;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .blog1img{
+    width: 80px;
+  }
+
+  .footer{
+    background-color: #263B5C;
+    height: 80vh;
+    color: white;
+    padding-top: 100px;
+  }
+.whenachild{
+    font-family:  "Rubik",sans-serif;
+    font-weight: 550;
+    line-height: 1.8;
+    
+}
+.socialmedia{
+    display: flex;
+  
+    
+}
+.fb{
+    width: 50px;
+    height: 50px;
+    background-color:rgb(67, 67, 145);
+   text-align: center;
+   font-size: 1.3rem;
+}
+.linkdin{
+    width: 50px;
+    height: 50px;
+    background-color:rgb(71, 71, 191);
+    text-align: center;
+    font-size: 1.3rem;
+    margin-left: 10px;
+}
+.inst{
+    width: 50px;
+    height: 50px;
+    background-color:rgb(108, 108, 157);
+    text-align: center;
+    font-size: 1.3rem;
+    margin-left: 10px;
+}
+.youtube{
+    width: 50px;
+    height: 50px;
+    background-color:rgb(191, 71, 83);
+    text-align: center;
+    font-size: 1.3rem;
+    margin-left: 10px;
+}
+.Navigation{
+    font-family: "Jost",sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+ ul p{
+    font-size: 17px;
+    font-family: "Jost",sans-serif;
+    font-weight: 500;
+}
+.joinus{
+    background-color: #F15B43;
+    color: white;
+    border: none;
+    padding: 10px 12px;
+    font-family:  "Rubik",sans-serif;
+   
+}
